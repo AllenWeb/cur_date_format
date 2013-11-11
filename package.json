@@ -1,0 +1,22 @@
+{
+  "name": "cur_date_format",
+  "version": "0.0.1",
+  "description": "对当前系统时间按参数进行格式化，参数形式可能是这样的：YYYY-MM-DD，当月份和月号的数字值小于10时，会在左边添加一个0进行填充。",
+  "main": "index.js",
+  "scripts": {
+    "test": "curDate.format(\"YYYY-MM-DD\");"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AllenWeb/cur_date_format"
+  },
+  "keywords": [
+    "date",
+    "format"
+  ],
+  "author": "Allen Chen",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/AllenWeb/cur_date_format/issues"
+  }
+}
